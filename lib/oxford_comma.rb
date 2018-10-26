@@ -1,3 +1,5 @@
 def oxford_comma(array)
-  array.join(', ')
+  if array.size < 3
+    array.join(' and ')
+  end
 end
